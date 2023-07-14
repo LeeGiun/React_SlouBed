@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+
+.Haeder {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+.navbar {
+  position: relative;
+  height: 80px;
+}
+.navbar .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Nav_logo {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 100px;
+  margin-top: -20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.Nav_logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: #ccc;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.navbar-brand:nth-child(2) {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.navbar-brand:hover {
+  color: #000;
+}
+
+.Mattress_box {
+  width: 100px;
+  height: 50px;
+  color: #000;
+  background-color: #eee;
+}
+
+.title {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+}
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title span::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0da";
+  margin: 0 10px 0 20px;
+  font-size: 30px;
+}
+
+.row {
+  padding: 0 1%;
+  box-sizing: border-box;
+}
+
+.col {
+  position: relative;
+  flex: none !important;
+  width: 25% !important;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.col a {
+  text-decoration: none;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.col img:hover {
+  scale: 1.03;
+}
+.col img:hover ~ .product_size {
+  top: 11px;
+  left: 9px;
+  scale: 1.1;
+}
+
+.col .product_size {
+  position: absolute;
+  z-index: 5;
+  top: 14px;
+  left: 10px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 15px 0px 5px 0px;
+  transition: 0.3s;
+  color: #000;
+  font-weight: bold;
+}
+
+.col .product_name {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+  height: 50px;
+}
+
+.col .after_price {
+  color: #000;
+  font-weight: bold;
+  margin-right: 10px;
+  color: dodgerblue;
+  font-size: 18px;
+  float: left;
+}
+.col .before_price {
+  text-decoration: line-through;
+  color: #ccc;
+  margin-right: 10px;
+  float: left;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.col .sale_price {
+  width: 45px;
+  text-align: center;
+  color:crimson;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+  float: left;
+}
+.col .btn_Box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.col .btn_Box button{
+  width: 48%;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  transition: 0.3s;
+  float: left;
+  box-sizing: border-box;
+}
+.col .btn_Box button:hover {
+  color:blanchedalmond;
+  border: 1px solid #fff;
+  background-color: #777;
+}
+.col.pillow_24 .sale_price,
+.col.pillow_24 .before_price {
+  display: none;
+}
+.col.pillow_24 .after_price {
+  width: 100%;
+}
