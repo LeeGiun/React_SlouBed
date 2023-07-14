@@ -24,7 +24,7 @@ export default function Mattress() {
           {products.map((product, index) => (
             <Col key={index} className={product.id}>
               <Link to={`Detail/${index}`}>
-                <img src={product.image} alt='product_img'/>
+                <img src={`${process.env.PUBLIC_URL}${product.image}`} alt='product_img'/>
                 {product.size.includes("none") ? null : <p className='product_size'>{product.size.replace(/\[|\]/g,"")}</p>}
                 <h2 className='product_name'>{product.product_name}</h2>
                 <p className='sale_price'>{product.sale}</p>

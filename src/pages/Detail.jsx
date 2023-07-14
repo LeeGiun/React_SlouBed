@@ -32,7 +32,7 @@ export default function Detail(props) {
   return (
     <div>
       <h1>Detail</h1>
-      <img src={product.image} alt="" style={{ width: 500 }} />
+      <img src={`${process.env.PUBLIC_URL}${product.image}`} alt='product_img' style={{ width: 500 }}/>
       <h4>{product.product_name}</h4>
       <p>{product.after_price}</p>
       <p>{product.before_price}</p>
