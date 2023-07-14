@@ -11,7 +11,6 @@ export default function Mattress() {
 
   const products = mattressData.mattress.Slow_Product_Mattress;
   const dispatch = useDispatch()
-
   return (
     <div>
       <Outlet></Outlet>
