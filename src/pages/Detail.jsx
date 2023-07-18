@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { addItem } from './option/store'
-import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './style/Detail_Style.css'
 
