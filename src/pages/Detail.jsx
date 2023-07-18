@@ -160,7 +160,7 @@ export default function Detail(props) {
           </div>
           <div className="Detail_btn">
             <button>찜하기</button>
-            <button onClick={() => dispatch(addItem({ id: product.id, product_name: product.product_name, size: selectedSize || product.size, count: count }))}>장바구니</button>
+            <button onClick={() => dispatch(addItem({ id: product.id, product_name: product.product_name, size: selectedSize || product.size, count: count, image: product.image }))}>장바구니</button>
           </div>
         </div>
       </div>

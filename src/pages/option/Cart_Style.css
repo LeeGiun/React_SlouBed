@@ -1,0 +1,52 @@
+* {margin: 0; padding: 0;}
+
+.Cart_Warp {
+  width: 1130px;
+  margin: 0 auto;
+}
+.Cart_Warp th {
+  text-align: center;
+}
+.Cart_Warp td {
+  text-align: center;
+  line-height: 80px;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-bg-type: #fff;
+  --bs-table-hover-bg: rgba(255, 255, 246, 0.914);
+}
+.cart_Btn {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cart_Warp .cart_Btn button {
+  width: 40%;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 0px;
+  margin: 0 3px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  float: left;
+}
+.cart_Btn button:last-child {
+  width: 85%;
+  float: left;
+}
+
+.Car_img {
+  width: 100px;
+  height: 80px;
+}
+.Car_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
