@@ -18,7 +18,7 @@ export default function Topper() {
         <h2 className='title'>
           <Link to ={'/'}>Home</Link>
           <span></span>
-          <Link to ={'/Topper'}> 토퍼</Link>
+          <Link to ={'/Topper'}> Topper</Link>
         </h2>
         <Row>
           {products.map((product, index) => (

@@ -18,7 +18,9 @@
       "before_price": "333900",
       "after_price": "309900",
       "catagory": "Topper",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Topper/2.jpg"
     }, {
       "number" : 3 ,
@@ -28,7 +30,9 @@
       "before_price": "452000",
       "after_price": "349800",
       "catagory": "Topper",
-      "size": "S / SS / Q",
+      "size": "S",
+      "size2": "SS",
+      "size3": "K",
       "image": "/images/Slow_Topper/3.jpg"
     }, {
       "number" : 4 ,
@@ -148,7 +152,8 @@
       "before_price": "399900",
       "after_price": "349000",
       "catagory": "Topper",
-      "size": "SS / Q",
+      "size": "SS",
+      "size2": "Q",
       "image": "/images/Slow_Topper/15.jpg"
     }, {
       "number" : 16 ,
@@ -168,7 +173,9 @@
       "before_price": "385900",
       "after_price": "319900",
       "catagory": "Topper",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Topper/17.jpg"
     }, {
       "number" : 18 ,
@@ -258,7 +265,9 @@
       "before_price": "504900",
       "after_price": "449900",
       "catagory": "Topper",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Topper/26.jpg"
     }]
   }

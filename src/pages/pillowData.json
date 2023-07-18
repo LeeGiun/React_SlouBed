@@ -28,7 +28,8 @@
       "before_price": "137900",
       "after_price": "127900",
       "catagory": "Pillow",
-      "size": "  SS /  Q  ",
+      "size": "SS",
+      "size2": "Q",
       "image": "/images/Slow_Pillow/3.jpg"
     }, {
       "number" : 4 ,
@@ -38,7 +39,9 @@
       "before_price": "45900",
       "after_price": "39900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/4.jpg"
     }, {
       "number" : 5 ,
@@ -68,7 +71,10 @@
       "before_price": "100900",
       "after_price": "74900",
       "catagory": "Pillow",
-      "size": "S / SS / Q / K",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
+      "size4": "K",
       "image": "/images/Slow_Pillow/7.jpg"
     }, {
       "number" : 8 ,
@@ -78,7 +84,9 @@
       "before_price": "290000",
       "after_price": "240000",
       "catagory": "Pillow",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Pillow/8.jpg"
     }, {
       "number" : 9 ,
@@ -128,7 +136,9 @@
       "before_price": "150900",
       "after_price": "139900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/13.jpg"
     }, {
       "number" : 14 ,
@@ -138,7 +148,9 @@
       "before_price": "160900",
       "after_price": "132900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/14.jpg"
     }, {
       "number" : 15 ,
@@ -178,7 +190,10 @@
       "before_price": "34900",
       "after_price": "29900",
       "catagory": "Pillow",
-      "size": "S / SS / Q / K",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
+      "size4": "K",
       "image": "/images/Slow_Pillow/18.jpg"
     }, {
       "number" : 19 ,
@@ -188,7 +203,9 @@
       "before_price": "135900",
       "after_price": "126900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/19.jpg"
     }, {
       "number" : 20 ,
@@ -198,7 +215,9 @@
       "before_price": "122900",
       "after_price": "114900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/20.jpg"
     }, {
       "number" : 21 ,
@@ -208,7 +227,9 @@
       "before_price": "109900",
       "after_price": "101900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/21.jpg"
     }, {
       "number" : 22 ,
@@ -218,7 +239,9 @@
       "before_price": "60000",
       "after_price": "51900",
       "catagory": "Pillow",
-      "size": "SS / Q / K",
+      "size": "SS",
+      "size2": "Q",
+      "size3": "K",
       "image": "/images/Slow_Pillow/22.jpg"
     }, {
       "number" : 23 ,
@@ -228,7 +251,10 @@
       "before_price": "100900",
       "after_price": "74900",
       "catagory": "Pillow",
-      "size": "S / SS / Q / K",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
+      "size4": "K",
       "image": "/images/Slow_Pillow/23.jpg"
     }, {
       "number" : 24 ,

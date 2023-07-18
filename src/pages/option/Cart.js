@@ -18,6 +18,7 @@ export default function Cart() {
           <tr>
             <th>#</th>
             <th>상품명</th>
+            <th>사이즈</th>
             <th>개수</th>
             <th>변경</th>
           </tr>
@@ -29,6 +30,7 @@ export default function Cart() {
                 <tr key={i}>
                   <td>{i + 1}</td>
                   <td>{state.cart[i].product_name}</td>
+                  <td>{state.cart[i].size}</td>
                   <td>{state.cart[i].count}</td>
                   <td>
                     <button onClick={() => {dispatch(addCount(state.cart[i].id))}}>+</button>

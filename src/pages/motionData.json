@@ -8,7 +8,9 @@
       "before_price": "1999000",
       "after_price": "1790000",
       "catagory": "Motion",
-      "size": " S / SS / Q ",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
       "image": "/images/Slow_Motion/1.jpg"
     }, {
       "number" : 2 ,
@@ -28,7 +30,9 @@
       "before_price": "3148000",
       "after_price": "2740000",
       "catagory": "Motion",
-      "size": " S / SS / Q ",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
       "image": "/images/Slow_Motion/3.jpg"
     }, {
       "number" : 4 ,

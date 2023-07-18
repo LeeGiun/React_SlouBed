@@ -98,7 +98,9 @@
       "before_price": "4440000",
       "after_price": "3780000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/10.jpg"
     }, {
       "number" : 11 ,
@@ -108,7 +110,9 @@
       "before_price": "4640000",
       "after_price": "3950000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/11.jpg"
     }, {
       "number" : 12 ,
@@ -118,7 +122,8 @@
       "before_price": "2680000",
       "after_price": "2280000",
       "catagory": "Mattress",
-      "size": "Q / K",
+      "size": "Q",
+      "size2": "K",
       "image": "/images/Slow_Matress/12.jpg"
     }, {
       "number" : 13 ,
@@ -148,7 +153,8 @@
       "before_price": "1760000",
       "after_price": "1450000",
       "catagory": "Mattress",
-      "size": "SS / Q",
+      "size": "S",
+      "size2": "Q",
       "image": "/images/Slow_Matress/15.jpg"
     }, {
       "number" : 16 ,
@@ -168,7 +174,8 @@
       "before_price": "1910000",
       "after_price": "1630000",
       "catagory": "Mattress",
-      "size": "SS / Q",
+      "size": "SS",
+      "size2": "Q",
       "image": "/images/Slow_Matress/17.jpg"
     }, {
       "number" : 18 ,
@@ -248,7 +255,9 @@
       "before_price": "2490000",
       "after_price": "1990000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/25.jpg"
     }, {
       "number" : 26 ,
@@ -258,7 +267,9 @@
       "before_price": "2490000",
       "after_price": "1990000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/26.jpg"
     }, {
       "number" : 27 ,
@@ -268,7 +279,9 @@
       "before_price": "2490000",
       "after_price": "1990000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/27.jpg"
     }, {
       "number" : 28 ,
@@ -278,7 +291,9 @@
       "before_price": "2490000",
       "after_price": "1990000",
       "catagory": "Mattress",
-      "size": "Q / K / KK",
+      "size": "Q",
+      "size2": "K",
+      "size3": "KK",
       "image": "/images/Slow_Matress/28.jpg"
     }, {
       "number" : 29 ,
@@ -288,7 +303,9 @@
       "before_price": "3140000",
       "after_price": "2740000",
       "catagory": "Mattress",
-      "size": "S / SS / Q",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
       "image": "/images/Slow_Matress/29.jpg"
     }, {
       "number" : 30 ,
@@ -328,7 +345,9 @@
       "before_price": "1999000",
       "after_price": "1790000",
       "catagory": "Mattress",
-      "size": "S / SS / Q",
+      "size": "S",
+      "size2": "SS",
+      "size3": "Q",
       "image": "/images/Slow_Matress/33.jpg"
     }, {
       "number" : 34 ,

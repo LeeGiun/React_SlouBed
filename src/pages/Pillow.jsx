@@ -18,14 +18,17 @@ export default function Pillow() {
         <h2 className='title'>
           <Link to ={'/'}>Home</Link>
           <span></span>
-          <Link to ={'/Pillow'}> 베개/커버</Link>
+          <Link to ={'/Pillow'}> Pillow</Link>
         </h2>
         <Row>
           {products.map((product, index) => (
             <Col key={index} className={product.id}>
               <Link to={`detail/${index}`}>
                 <img src={`${process.env.PUBLIC_URL}${product.image}`} alt='product_img'/>
-                {product.size.includes("none") ? null : <p className='product_size'>{product.size.replace(/\[|\]/g,"")}</p>}
+                {product.size && !product.size.includes("none") ? <p className='product_size'>{product.size.replace(/\[|\]/g,"")}</p> : null}
+                {product.size2 && !product.size2.includes("none") ? <p className='product_size2'>{product.size2.replace(/\[|\]/g,"")}</p> : null}
+                {product.size3 && !product.size3.includes("none") ? <p className='product_size3'>{product.size3.replace(/\[|\]/g,"")}</p> : null}
+                {product.size4 && !product.size4.includes("none") ? <p className='product_size4'>{product.size4.replace(/\[|\]/g,"")}</p> : null}
                 <h2 className='product_name'>{product.product_name}</h2>
                 <p className='sale_price'>{product.sale}</p>
                 <p className='after_price'>{parseInt(product.after_price).toLocaleString('ko-KR')}원</p>

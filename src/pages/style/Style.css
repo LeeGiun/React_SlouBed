@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
 
+* {padding: 0; margin: 0;}
+
 .Haeder {
   position: absolute;
   z-index: 2;
@@ -62,9 +64,10 @@
 }
 
 .title {
-  width: 300px;
+  width: 400px;
   height: 50px;
   line-height: 50px;
+  margin-left: 10px;
 }
 .title a {
   text-decoration: none;
@@ -108,27 +111,75 @@
 .col img:hover {
   scale: 1.03;
 }
-.col img:hover ~ .product_size {
+.col img:hover ~ .product_size,
+.col img:hover ~ .product_size2,
+.col img:hover ~ .product_size3,
+.col img:hover ~ .product_size4 {
   top: 11px;
-  left: 9px;
+  left: 6px;
   scale: 1.1;
 }
-
-.col .product_size {
-  position: absolute;
-  z-index: 5;
-  top: 14px;
+.col img:hover ~ .product_size2 {
   left: 10px;
-  width: 100px;
+  top: 11px;
+}
+.col img:hover ~ .product_size3 {
+  left: 16px;
+  top: 11px;
+}
+.col img:hover ~ .product_size4 {
+  left: 20px;
+  top: 11px;
+}
+
+
+.col .product_size,
+.col .product_size2,
+.col .product_size3,
+.col .product_size4 {
+  position: absolute;
+  z-index: 6;
+  top: 14px;
+  left: 9.5px;
+  width: 50px;
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(3px);
+  /* background-color: rgba(255, 255, 255, 0.0); */
+  /* backdrop-filter: blur(3px); */
+  background-color: lightcyan;
   border-radius: 15px 0px 5px 0px;
   transition: 0.3s;
   color: #000;
   font-weight: bold;
+  box-sizing: border-box;
+}
+.col .product_size2 {
+  z-index: 5;
+  left: 9px;
+  backdrop-filter: blur(0px);
+  width: 110px;
+  padding-right: 25px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.col .product_size3 {
+  z-index: 4;
+  left: 9px;
+  backdrop-filter: blur(0px);
+  width: 165px;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+.col .product_size4 {
+  z-index: 3;
+  left: 9px;
+  backdrop-filter: blur(0px);
+  width: 217px;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
 }
 
 .col .product_name {
@@ -137,6 +188,7 @@
   color: #000;
   font-size: 18px;
   height: 50px;
+
 }
 
 .col .after_price {
