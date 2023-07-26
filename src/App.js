@@ -24,6 +24,8 @@ import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { addItem } from './pages/option/store'
 
+import Main_Swiper from './pages/option/Swiper/Main_Swiper'
+
 
 function App() {
   const mattressProducts  = mattressData.mattress.Slow_Product_Mattress;
@@ -37,17 +39,10 @@ function App() {
       <HeaderNavbar></HeaderNavbar>
       <Routes>
         <Route path='/' element = {
-          <Container>
-            <div className='visual' style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/visualMain.jpg'})` }}>
-              <div className='visual_txt'>
-                <p>Open 플래그십 스토어 논현</p>
-                <h2>
-                  고밀도 수면의 가치를 담아낸<br/>
-                  새로운 체험 공간
-                </h2>
-                <button className='viual_btn'>View  More</button>
-              </div>
-            </div>
+          <Container className='Swiper_Container'>
+            <Main_Swiper>
+
+            </Main_Swiper>
           </Container>
         }/>
         <Route path='Mattress' element={<Mattress/>}/>

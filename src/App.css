@@ -27,50 +27,9 @@ li {list-style: none;}
   position: relative;
   padding-top: 80px;
   box-sizing: border-box;
+  background-color: #000;
 }
 
-.container {
-  width: 100% !important;
-}
-
-.visual {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-.visual_txt {
-  position: absolute;
-  bottom: 180px;
-  left: 50%;
-  margin-left: -215px;
-  width: 430px;
-  color: #fff;
-  text-align: center;
-}
-.visual_txt p {
-  font-size: 16px;
-  font-weight: bold;
-}
-.viual_btn {
-  width: 150px;
-  height: 35px;
-  border-radius: 15px;
-  margin-top: 15px;
-  outline: none;
-  color: #777;
-  font-weight: bold;
-  border: none;
-  box-sizing: border-box;
-  transition: 0.3s;
-}
-
-.viual_btn:hover {
-  background-color: beige;
-  color: brown;
+html {
+  background-color: #000;
 }

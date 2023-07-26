@@ -3,8 +3,18 @@ import Table from 'react-bootstrap/Table'
 import { useDispatch, useSelector } from 'react-redux'
 import { addCount, addItem, subCount, deleteItem } from './store'
 import './Cart_Style.css'
+import { useEffect } from 'react'
 
 export default function Cart() {
+
+  useEffect(() => {
+    document.querySelector('html').style.backgroundColor = '#fff';
+    document.querySelector('.App').style.backgroundColor = '#fff';
+    return () => {
+      document.querySelector('html').style.backgroundColor = '';
+      document.querySelector('.App').style.backgroundColor = '';
+    }
+  }, [])
 
   const state = useSelector((state => state))
   const dispatch = useDispatch()

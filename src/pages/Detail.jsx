@@ -4,9 +4,23 @@ import { useParams } from 'react-router-dom'
 import { addItem } from './option/store'
 import { Link } from 'react-router-dom'
 import './style/Detail_Style.css'
+import { useEffect } from 'react'
 
 
 export default function Detail(props) {
+
+
+  useEffect(() => {
+    document.querySelector('html').style.backgroundColor = '#fff';
+    document.querySelector('.App').style.backgroundColor = '#fff';
+    return () => {
+      document.querySelector('html').style.backgroundColor = '';
+      document.querySelector('.App').style.backgroundColor = '';
+    }
+  }, [])
+
+
+
   const { mattressProducts, motionProducts, pillowProducts, topperProducts } = props;
   const { number } = useParams();
   const index = Number(number) + 1;
